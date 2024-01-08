@@ -25,15 +25,15 @@ const Home = () => {
                                 </h1>
                                 <p className="mx-auto max-w-[700px]">Your Ultimate WorkSpace! Anytime,Anywhere.</p>
                             </div>
-                            <div className="space-y-4 space-x-4 ">
+                            <div className="space-y-4">
                                 <Link
-                                    className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-gray-900 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                                    className=" mx-4 inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-gray-900 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                                     to="/draw"
                                 >
                                     Get Started
                                 </Link>
                                 <a
-                                    className="inline-flex h-10 items-center justify-center rounded-md border border-white px-8 text-sm font-medium text-white shadow transition-colors hover:bg-white hover:text-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                                    className=" inline-flex h-10 items-center justify-center rounded-md border border-white px-8 text-sm font-medium text-white shadow transition-colors hover:bg-white hover:text-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                                     href="https://tldraw.dev/docs/editor"
                                 >
                                     Learn More
