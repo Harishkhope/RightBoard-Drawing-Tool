@@ -25,7 +25,7 @@ const Home = () => {
                                 </h1>
                                 <p className="mx-auto max-w-[700px]">Your Ultimate WorkSpace! Anytime,Anywhere.</p>
                             </div>
-                            <div className="space-x-4">
+                            <div className="space-y-4 space-x-4 ">
                                 <Link
                                     className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-gray-900 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                                     to="/draw"
