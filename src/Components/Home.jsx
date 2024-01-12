@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import square from "../assets/Square.gif"
+import "../App.css"
 const Home = () => {
     return (
         <div key="1" className="flex flex-col min-h-screen font-pop">
@@ -18,7 +19,7 @@ const Home = () => {
             <main className="flex-1">
                 <section className="w-full">
                     <div className="container px-4 md:px-6">
-                        <div className="h-96 flex flex-col items-center justify-center space-y-4 text-center bg-gradient-to-r from-green-400 to-blue-500 text-white shadow-lg rounded-lg p-4">
+                        <div className=" h-96 flex flex-col items-center justify-center space-y-4 text-center bg-gradient-to-r from-green-400 to-blue-500 text-white shadow-lg rounded-lg p-4">
                             <div className="space-y-2">
                                 <h1 className="text-3xl font-bold  sm:text-4xl md:text-5xl lg:text-6xl/none">
                                     Welcome to RightBoard
@@ -27,16 +28,16 @@ const Home = () => {
                             </div>
                             <div className="space-y-4">
                                 <Link
-                                    className=" mx-4 inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-gray-900 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                                    className="bn5 mx-4 inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-gray-900 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                                     to="/draw"
                                 >
                                     Get Started
                                 </Link>
                                 <a
-                                    className=" inline-flex h-10 items-center justify-center rounded-md border border-white px-8 text-sm font-medium text-white shadow transition-colors hover:bg-white hover:text-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                                    className="bn54 inline-flex h-10 items-center justify-center rounded-md border border-white px-8  font-medium text-white shadow transition-colors hover:bg-white hover:text-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                                     href="https://tldraw.dev/docs/editor"
                                 >
-                                    Learn More
+                                <span className="bn54span text-sm">Learn More</span>
                                 </a>
                             </div>
                         </div>
